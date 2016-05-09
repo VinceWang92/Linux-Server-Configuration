@@ -182,6 +182,18 @@ engine = create_engine('postgresql://catalog:DBpassword@localhost/catalog')
 ### 17 - Update OAuth authorized JavaScript origins
 
 1. To let users correctly log-in change the authorized URI to [http://ec2-52-34-45-198.us-west-2.compute.amazonaws.com/](http://ec2-52-34-45-198.us-west-2.compute.amazonaws.com/) on both Google and Facebook developer dashboards.
+2. Update __init__.py: 
+replace 
+'CLIENT_ID = json.loads(
+    open('client_secrets.json', 'r').read())['web']['client_id']'
+with
+'CLIENT_ID = json.loads(
+    open(r'/var/www/catalog/catalog/client_secrets.json', 'r').read())['web']['client_id']'
+
+replace 
+'oauth_flow = flow_from_clientsecrets('client_secrets.json', scope='')'
+with
+'oauth_flow = flow_from_clientsecrets(r'/var/www/catalog/catalog/client_secrets.json', scope='')'
 
 ### 18 - Restart Apache to launch the app
 1. `$ sudo service apache2 restart`.
