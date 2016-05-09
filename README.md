@@ -197,3 +197,34 @@ with
 ### 18 - Restart Apache to launch the app
 1. `$ sudo service apache2 restart`.
 
+## Sources used:
+[Configuring Linux Web Servers - Udacity.com](https://www.udacity.com/course/viewer#!/c-ud299-nd/l-4378692847/m-4799370031)
+
+[Get rid of sudo error message - askubuntu](http://askubuntu.com/questions/59458/error-message-when-i-run-sudo-unable-to-resolve-host-none)
+
+[Create new ssh user - askubuntu](http://askubuntu.com/questions/16650/create-a-new-ssh-user-on-ubuntu-server)
+
+[More info on UFW - Ubuntu docs](https://help.ubuntu.com/community/UFW)
+
+[Change timezone - Ubuntu docs](https://help.ubuntu.com/community/UbuntuTime#Using_the_Command_Line_.28terminal.29)
+
+[Flask App on Ubuntu VPS - DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps)
+
+[python packages not installing in virtualenv using pip - stackoverflow](http://stackoverflow.com/questions/14695278/python-packages-not-installing-in-virtualenv-using-pip)
+
+[Move files from one directtory to another - stack exchange](http://unix.stackexchange.com/questions/6393/how-do-you-move-all-files-including-hidden-from-one-directory-to-another)
+
+[Make .git directory web inaccessible](http://stackoverflow.com/questions/6142437/make-git-directory-web-inaccessible)
+
+[Fix google + Oauth issue - Udacity Forum](https://discussions.udacity.com/t/google-sign-in-problems/28191)
+
+[Using glances - Glances docs](http://glances.readthedocs.org/en/latest/glances-doc.html#configuration)
+
+[Using postgres in flask](http://blog.sahildiwan.com/posts/flask-and-postgresql-app-deployed-on-heroku/)
+
+[Use fail2ban to monitor login - digital ocean](https://www.digitalocean.com/community/tutorials/how-to-protect-ssh-with-fail2ban-on-ubuntu-14-04)
+
+[Python 2 in virtual enviroment](http://joebergantine.com/blog/2015/apr/30/installing-python-2-and-python-3-alongside-each-ot/)
+
+[unattended upgardes - ubuntu docs](https://help.ubuntu.com/community/AutomaticSecurityUpdates)
+
