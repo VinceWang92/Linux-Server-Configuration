@@ -98,7 +98,7 @@ Install *fail2ban* in order to mitigate brute force attacks by users and bots al
 3. Configure your email: `$ git config --global user.email <email>`.
 4. `$ cd /var/www`. Then: `$ sudo mkdir catalog`.
 5. Change owner for the *catalog* folder: `$ sudo chown -R grader:grader catalog`.
-6. Move inside that newly created folder: `$ cd /catalog` and clone the catalog repository from Github: `$ git clone https://github.com/iliketomatoes/catalog.git catalog`.
+6. Move inside that newly created folder: `$ cd /catalog` and clone the catalog repository from Github: `$ git clone https://github.com/VinceWang92/catalog catalog`.
 7. Make a *catalog.wsgi* file to serve the application to replace the *mod_wsgi*. That file is:
 
 ```python
