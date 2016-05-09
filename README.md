@@ -2,7 +2,7 @@
 
 ## Description
 
-The application meant to be deployed is the **Music catalog app**, previously developed for [Project 3](https://github.com/VincentWang92/catalog).
+The application meant to be deployed is the **Music catalog app**, previously developed for [Project 3](https://github.com/VinceWang92/catalog).
 
 ## Useful info
 
