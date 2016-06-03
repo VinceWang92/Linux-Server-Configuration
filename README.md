@@ -1,4 +1,4 @@
-# Linux-Server-Configuration of Full Stack Nono degree in Udacity
+# Linux-Server-Configuration of Full Stack Nanodegree in Udacity
 
 ## Description
 
